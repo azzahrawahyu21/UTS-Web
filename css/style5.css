@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg");
+    background-size: cover;
+}
+nav {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: 17px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a {
+    color: #0c493b;
+}
+nav ul li a:hover {
+    background-color: #b2d2cc;
+    padding: 10px;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 10px;
+}
+.logo {
+    font-size: 30px;
+    color: #0c493b;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo img {
+    width: 30px;
+    padding-right: 10px;
+}
+form {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 5px;
+    color: #0c493b;
+}
+form h1 {
+    padding-bottom: 15px;
+}
+form p {
+    padding-bottom: 10px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+}
+input[type="submit"] {
+    background-color: #4493e7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="reset"] {
+    background-color: #4493e7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 20px;
+}
